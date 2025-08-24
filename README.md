@@ -11,24 +11,6 @@ A simple **Node.js + Express + TypeScript** API that processes and resizes image
 
 ---
 
-## 📂 Project Structure
-image-processing-api/
-│── src/
-│ ├── routes/
-│ │ └── images.ts # Image processing routes
-│ ├── utils/
-│ │ └── image.ts # Utility functions (resize, validation, etc.)
-│ └── index.ts # Main server entry point
-│
-│── dist/ # Compiled JS (after build)
-│── assets/full/ # Original images
-│── assets/thumb/ # Processed images (cached)
-│── package.json
-│── tsconfig.json
-│── README.md
-
----
-
 ## ⚙️ Installation
 
 1. Clone the repository:
@@ -78,7 +60,6 @@ image-processing-api/
 
 ---
 
-errors: 
 ## Error Handling
 
 - **400 Bad Request**: Missing parameters or invalid values.
@@ -87,4 +68,5 @@ errors:
 
 ---
 
-author: "SANA SALEH"
+## author: 
+"SANA SALEH"
